@@ -275,7 +275,8 @@ h1, h2, h3, h4, h5, h6, .heading{color:#000000; background-color:inherit;}
 .row5{color:#D3D3D3; background-color:#333333;}
 .row6, .row6 a{color:#D3D3D3; background-color:#292929;}
 .row7{background:rgba(255,255,255,.1); box-shadow: 0 5px 15px rgba(0,0,0,.5);}
-.row8{background:rgba(255,255,255,.6); box-shadow: 0 5px 15px rgba(0,0,0,.5);}
+.row8{background:rgba(255,255,255,.6); box-shadow: 4px 4px 10px rgba(0,0,0,.4); height: 450px; max-width: 475px}
+
 
 
 /* Header */
@@ -341,16 +342,18 @@ table a, #comments a{background-color:inherit;}
 /* Max Wrapper Width - Laptop, Desktop etc.
 --------------------------------------------------------------------------------------------------------------- */
 @media screen and (min-width:1050px){
-	.wrapper{max-width:1500px;}
+	.wrapper{max-width:80%;}
+	.one_half, .three_quarter{display:block; padding:0;}
 }
 @media screen and (min-width:900px) and (max-width:1049px) {
-	.wrapper{max-width:98%;}
+	.wrapper{max-width:90%;}
+	.one_half, .three_quarter{display:block; float:none; width:auto; margin:0 0 30px 0; padding:0;} /* copied this from max-width: 750px to prevent video overlap*/
 }
 
 /* Smartphone + Tablet
 --------------------------------------------------------------------------------------------------------------- */
 @media screen and (max-width:900px){
-	.wrapper{max-width:95%;}
+	.wrapper{max-width:85%;}
 
 	#topbar{}
 
@@ -372,13 +375,16 @@ table a, #comments a{background-color:inherit;}
 
 	#copyright{}
 	#copyright p:first-of-type{margin-bottom:10px;}
+
+	.one_half, .one_third, .two_third, .one_quarter, .two_quarter, .three_quarter{display:block; float:none; width:auto; margin:0 0 30px 10px; padding:0;} 
+	/* copied this from max-width: 750px to prevent video overlap*/
 }
 
 
-@media screen and (max-width:750px){
+@media screen and (max-width:750px) {
 	.imgl, .imgr{display:inline-block; float:none; margin:0 0 10px 0;}
 	.fl_left, .fl_right{display:block; float:none;}
-	.one_half, .one_third, .two_third, .one_quarter, .two_quarter, .three_quarter{display:block; float:none; width:auto; margin:0 0 30px 0; padding:0;}
+	.one_half, .one_third, .two_third, .one_quarter, .two_quarter, .three_quarter{display:block; float:none; width:auto; margin:0 0 30px 0; padding:0;} /* removed .three_quarter so my face doesn't get bloated*/
 
 	#topbar, #header{text-align:center;}
 
@@ -398,7 +404,7 @@ table a, #comments a{background-color:inherit;}
 /* Other
 --------------------------------------------------------------------------------------------------------------- */
 @media screen and (max-width:650px){
-	.scrollable{display:block; width:100%; margin:0 0 30px 0; padding:0 0 15px 0; overflow:auto; overflow-x:scroll;}
+	.scrollable{display:block; width:90%; margin:0 0 30px 0; padding:0 0 15px 0; overflow:auto; overflow-x:scroll;}
 	.scrollable table{margin:0; padding:0; white-space:nowrap;}
 
 	#bgslideshow ul li em{font-size:50px;}
@@ -411,3 +417,7 @@ table a, #comments a{background-color:inherit;}
 
 	
 }
+
+
+160.688
+214.250
