@@ -268,12 +268,14 @@ h1, h2, h3, h4, h5, h6, .heading{color:#000000; background-color:inherit;}
 
 /* Rows */
 .row0{color:#D3D3D3; background-color:#292929;}
-.row1, .row1 a{color:#FFFFFF; background-color:#333333;}
+.row1, .row1 a{color:#FFFFFF; background-color:#333333;} 
 .row2, .row2 a{color:#D3D3D3; background-color:#292929;}
-.row3{color:#888888; background-color:#FFFFFF;}
+.row3{color:#444343; background-color:rgba(255, 255, 255, 0.884);} /*-------- .row3{color:#888888; background-color:#FFFFFF;} */
 .row4{color:#888888; background-color:#F7F7F7; border-color:#D7D7D7;}
 .row5{color:#D3D3D3; background-color:#333333;}
 .row6, .row6 a{color:#D3D3D3; background-color:#292929;}
+.row7{background:rgba(255,255,255,.1); box-shadow: 0 5px 15px rgba(0,0,0,.5);}
+.row8{background:rgba(255,255,255,.6); box-shadow: 0 5px 15px rgba(0,0,0,.5);}
 
 
 /* Header */
@@ -339,7 +341,7 @@ table a, #comments a{background-color:inherit;}
 /* Max Wrapper Width - Laptop, Desktop etc.
 --------------------------------------------------------------------------------------------------------------- */
 @media screen and (min-width:1050px){
-	.wrapper{max-width:1038px;}
+	.wrapper{max-width:1500px;}
 }
 @media screen and (min-width:900px) and (max-width:1049px) {
 	.wrapper{max-width:98%;}

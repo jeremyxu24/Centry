@@ -69,7 +69,7 @@ hr{display:block; width:100%; height:1px; border:solid; border-width:1px 0 0 0;}
 .font-x2{font-size:1.8rem;}
 .font-x3{font-size:2.8rem;}
 
-.wrapper{display:block; position:relative; margin:0 auto; padding:0; text-align:left; word-wrap:break-word;}
+.wrapper{display:block; position:relative; margin: auto; padding:0; text-align:left; word-wrap:break-word;}
 #topbar, #header, #mainav, #breadcrumb, .container, #footer, #copyright{display:block; width:100%;}
 .spacer{display:block; padding:0 5%;}
 
@@ -153,3 +153,51 @@ address, article, aside, figcaption, figure, footer, header, main, nav, section{
     width:120%;
 
 }
+
+/* box button
+--------------------------------------------------------------------------------------------------------------- */
+
+.body1 {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+
+.section1 {
+    padding: 0 100px;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    position: center;
+}
+
+.box {
+    position: relative;
+    max-width: 600px;
+    padding: 50px;
+    background:rgba(255,255,255,.2);
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+}
+
+.box h2{
+    margin: 0 0 20px;
+    padding: 0;
+    font-size: 48px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.box p {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: white;
+
+}
+
+/* box button
+--------------------------------------------------------------------------------------------------------------- */
+
+
