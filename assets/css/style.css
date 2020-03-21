@@ -584,7 +584,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   height: 1px;
   background: #ddd;
   bottom: 1px;
-  left: calc(50% - 60px);
+ 
 }
 
 .section-header h3::after {
@@ -593,9 +593,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: block;
   width: 40px;
   height: 3px;
-  background: #18d26e;
   bottom: 0;
-  left: calc(50% - 20px);
+  
 }
 
 .section-header p {
@@ -1552,4 +1551,25 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
   font-size: 13px;
   color: #ddd;
+}
+
+/*-------------header1-------------------*/
+.title2{
+  font-family: calibri;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: black;
+}
+
+
+/*--------------tech skills------------*/
+
+.title1{
+  font-size: 28px;
+  text-align: center;
+}
+
+.rowsize{
+  height: 
 }
