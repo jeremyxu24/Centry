@@ -959,7 +959,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   position: relative;
   height: 430px; /*------changed from 360px-----*/
   overflow: hidden;
-  padding-bottom: 10px;
+  padding: 10px; /*------added padding didn't do anything-----*/
 }
 
 #portfolio .portfolio-item figure {
