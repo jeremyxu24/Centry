@@ -63,7 +63,10 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 768px) {
   .back-to-top {
     bottom: 15px;
-  }
+   }
+  .techskills{
+     padding-left: 25%;
+   }
 }
 
 /* Prelaoder */
@@ -1554,6 +1557,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 /*-------------header1-------------------*/
+.center1 {
+  margin-left: auto; 
+  margin-right: auto; 
+  width:50%; 
+  display:block
+}
+
 .title2{
   font-family: calibri;
   font-size: 30px;
@@ -1566,10 +1576,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*--------------tech skills------------*/
 
 .title1{
-  font-size: 28px;
+  font-size: 22px;
   text-align: center;
 }
 
-.rowsize{
-  height: 
+.title5{
+  height: 141px;
+  width: 100%;
 }
+
