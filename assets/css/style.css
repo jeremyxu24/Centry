@@ -1454,7 +1454,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-right: 20px;
   /* border-radius: 50%; */
   text-align: center;
-  width: 106px; /*----changed from 24px----*/
+  width: 105px; /*----changed from 24px----*/
   height: 34px; /*----changed from 24px----*/
   transition: 0.3s;
   font-size: 17px;
