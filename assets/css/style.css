@@ -15,12 +15,12 @@ body {
 }
 
 a {
-  color: #18d26e;
+  color: rgb(88,252,252);
   transition: 0.5s;
 }
 
 a:hover, a:active, a:focus {
-  color: #18d36e;
+  color: rgb(88,252,252);
   outline: none;
   text-decoration: none;
 }
@@ -49,7 +49,7 @@ h1, h2, h3, h4, h5, h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #18d26e;
+  background: rgb(88,252,252);
   color: #fff;
   width: 44px;
   height: 44px;
@@ -95,7 +95,7 @@ h1, h2, h3, h4, h5, h6 {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid #f2f2f2;
-  border-top: 6px solid #18d26e;
+  border-top: 6px solid rgb(88,252,252);
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -316,12 +316,12 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.5s;
   margin: 10px;
   color: #fff;
-  background: #18d26e;
+  background: rgb(88,252,252);
 }
 
 #intro .btn-get-started:hover {
   background: #fff;
-  color: #18d26e;
+  color: rgb(88,252,252);
 }
 
 /*--------------------------------------------------------------
@@ -1176,7 +1176,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #testimonials .owl-dot.active {
-  background-color: #18d26e;
+  background-color: rgb(88,252,252);
 }
 
 /* Team Section
@@ -1269,7 +1269,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 48px;
   display: inline-block;
   margin-bottom: 10px;
-  color: #18d26e;
+  color: rgb(88,252,252);
 }
 
 #contact .contact-info address, #contact .contact-info p {
@@ -1290,7 +1290,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .contact-info a:hover {
-  color: #18d26e;
+  color: rgb(88,252,252);
 }
 
 #contact .contact-address, #contact .contact-phone, #contact .contact-email {
@@ -1358,7 +1358,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
+  border: 3px solid rgb(88,252,252);
   border-top-color: #eee;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
@@ -1372,11 +1372,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .php-email-form input::focus, #contact .php-email-form textarea::focus {
-  background-color: #18d26e;
+  background-color: rgb(88,252,252);
 }
 
 #contact .php-email-form button[type="submit"] {
-  background: #18d26e;
+  background: rgb(88,252,252);
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -1385,7 +1385,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .php-email-form button[type="submit"]:hover {
-  background: #13a456;
+  background: rgb(88,252,252);
 }
 
 @-webkit-keyframes animate-loading {
