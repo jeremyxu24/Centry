@@ -667,11 +667,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* About Us Section
 --------------------------------*/
 #about {
-  background: url("../img/backgrounds/wood.jpg") center top no-repeat fixed;
+
   background-size: cover;
   padding: 60px 0 40px 0;
   position: relative;
-  color: #666666;
+  background-color: #fff
+  
 }
 
 #about::before {
