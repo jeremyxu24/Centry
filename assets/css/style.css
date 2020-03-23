@@ -619,7 +619,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Section with background
 --------------------------------*/
 .section-bg {
-  background: #e7f8fc;
+  background: #ffffffa6;
 }
 
 /* Featured Services Section
@@ -948,7 +948,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #portfolio #portfolio-flters li:hover, #portfolio #portfolio-flters li.filter-active {
-  background: #18d26e;
+  background: rgb(88,252,252);
   color: #fff;
 }
 
@@ -1006,7 +1006,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #portfolio .portfolio-item figure .link-preview:hover, #portfolio .portfolio-item figure .link-details:hover {
-  background: #18d26e;
+  background: rgb(88,252,252);
 }
 
 #portfolio .portfolio-item figure .link-preview:hover i, #portfolio .portfolio-item figure .link-details:hover i {
@@ -1054,7 +1054,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #portfolio .portfolio-item .portfolio-info h4 a:hover {
-  color: #18d26e;
+  color: rgb(88,252,252);
 }
 
 #portfolio .portfolio-item .portfolio-info p {
@@ -1098,7 +1098,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #clients .owl-dot.active {
-  background-color: #18d26e;
+  background-color: rgb(88,252,252);
 }
 
 /* Testimonials Section
