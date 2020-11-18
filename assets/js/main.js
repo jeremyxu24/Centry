@@ -230,3 +230,65 @@
   });
 
 })(jQuery);
+
+var modal = document.getElementById('simpleModal');
+var modalBtn = document.getElementById('modalBtn')
+var closeBtn = document.getElementsByClassName('closeBtn')[0];
+const video = document.querySelectorAll('video')[0];
+
+
+modalBtn.addEventListener('click',openModal);
+window.addEventListener('click',clickOutside);
+
+function openModal(){
+  modal.style.display = 'block';
+  console.log(video)
+  console.log('here')
+}
+
+function clickOutside(e){
+  if(e.target==modal){
+    modal.style.display = 'none';
+    video.pause()
+  }
+}
+
+var modal2 = document.getElementById('simpleModal2');
+var modalBtn2 = document.getElementById('modalBtn2')
+var closeBtn2 = document.getElementsByClassName('closeBtn')[0];
+const video2 = document.querySelectorAll('video')[1];
+
+modalBtn2.addEventListener('click',openModal2);
+window.addEventListener('click',clickOutside2);
+
+function openModal2(){
+  modal2.style.display = 'block';
+}
+
+function clickOutside2(e){
+  if(e.target==modal2){
+      modal2.style.display = 'none';
+      video2.pause()
+  }
+
+}
+
+var modal3 = document.getElementById('simpleModal3');
+var modalBtn3 = document.getElementById('modalBtn3')
+var closeBtn3 = document.getElementsByClassName('closeBtn')[0];
+const video3 = document.querySelectorAll('video')[2];
+
+
+modalBtn3.addEventListener('click',openModal3);
+window.addEventListener('click',clickOutside3);
+
+function openModal3(){
+    modal3.style.display = 'block';
+}
+
+function clickOutside3(e){
+    if(e.target==modal3){
+        modal3.style.display = 'none';
+        video2.pause()
+    }
+}
