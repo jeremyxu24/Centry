@@ -1423,6 +1423,19 @@ span {
   float:left;
 }
 
+h4{
+  text-decoration: underline #6899C1;
+}
+
+.aboutme {
+  display: block; 
+  margin: 0 auto; 
+  border-radius: 50%;
+  max-width: 100%;
+  height: auto;
+  box-shadow: 2px 8px 20px rgba(0, 0, 0, 0.18);
+}
+
 
 @keyframes modalopen{
   from{opacity:0}
