@@ -32,8 +32,8 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  margin: 0 0 20px 0;
+  font-weight: 500;
+  margin: 0 0 13px 0;
   padding: 0;
 }
 
@@ -1347,12 +1347,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /*----------------bullet pints------*/
 ul.a{
+  margin-top: 5px;
   list-style-type: disc;
-  text-indent: 30px;
+  text-indent: 0px;
+  font-size:14px;
 }
 
 h5.b {
-  text-indent: 30px;
+  text-indent: 0px;
 }
 
 /*----------------modal video ---------*/
@@ -1410,6 +1412,16 @@ a:not([href]):hover {
   cursor:pointer;
 }
 
+h6 {
+  font-family: georgia;
+  float:left;
+  margin-bottom:0px;
+}
+
+span {
+  margin: 0px 15px;
+  float:left;
+}
 
 
 @keyframes modalopen{
