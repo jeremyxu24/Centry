@@ -1039,7 +1039,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #fff;
   text-align: left;
   padding: 30px;
-  height: 147px;
+  height: 168px;
   border-radius: 0 0 3px 3px;
 }
 
@@ -1048,7 +1048,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   line-height: auto;
   font-weight: 700;
 
-  margin-bottom: 10px;
+  margin-bottom: 0px;
   padding-bottom: 0;
 }
 
@@ -1063,7 +1063,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #portfolio .portfolio-item .portfolio-info p {
   padding: 0;
   margin: 0;
-  color: #b8b8b8;
+  color: #949191;
   font-weight: 500;
   font-size: 14px;
   /* text-transform: uppercase; */
