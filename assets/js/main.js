@@ -233,24 +233,19 @@
 
 var modal = document.getElementById('simpleModal');
 var modalBtn = document.getElementById('modalBtn')
-var closeBtn = document.getElementsByClassName('closeBtn')[0];
+
 const video = document.querySelectorAll('video')[0];
 
-
 modalBtn.addEventListener('click',openModal);
-closeBtn.addEventListener('click',closeModal);
+
 window.addEventListener('click',clickOutside);
 
 function openModal(){
     modal.style.display = 'block';
-    console.log(video)
-    console.log('here')
+    console.log('modal 1 is opening')
 }
 
-function closeModal(){
-    modal.style.display = 'none';
 
-}
 
 function clickOutside(e){
     if(e.target==modal){
@@ -258,52 +253,43 @@ function clickOutside(e){
         video.pause()
     }
 
+
 }
 
 var modal2 = document.getElementById('simpleModal2');
 var modalBtn2 = document.getElementById('modalBtn2')
-var closeBtn2 = document.getElementsByClassName('closeBtn')[0];
 const video2 = document.querySelectorAll('video')[1];
 
 
+
 modalBtn2.addEventListener('click',openModal2);
-closeBtn2.addEventListener('click',closeModal2);
 window.addEventListener('click',clickOutside2);
 
 function openModal2(){
     modal2.style.display = 'block';
 }
 
-function closeModal2(){
-    modal2.style.display = 'none';
-}
 
 function clickOutside2(e){
     if(e.target==modal2){
         modal2.style.display = 'none';
         video2.pause()
     }
+    
 
 }
 
 var modal3 = document.getElementById('simpleModal3');
 var modalBtn3 = document.getElementById('modalBtn3')
-var closeBtn3 = document.getElementsByClassName('closeBtn')[0];
+
 const video3 = document.querySelectorAll('video')[2];
 
 
 modalBtn3.addEventListener('click',openModal3);
-closeBtn3.addEventListener('click',closeModal3);
 window.addEventListener('click',clickOutside3);
 
 function openModal3(){
     modal3.style.display = 'block';
-    console.log('heyyyyyyyy')
-    console.log(video3)
-}
-
-function closeModal3(){
-    modal3.style.display = 'none';
 }
 
 function clickOutside3(e){
