@@ -1416,6 +1416,8 @@ h6 {
   font-family: georgia;
   float:left;
   margin-bottom:0px;
+  color: black;
+  
 }
 
 span {
@@ -1425,6 +1427,8 @@ span {
 
 h4 {
   text-decoration: underline #6899C1;
+  color: black;
+  font-weight: bold;
 }
 
 .aboutme {
